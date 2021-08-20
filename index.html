@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bako|Loan Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="bg-dark">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-5 mx-auto">
+              <header>
+                  <nav class="nav-wrapper">
+                      <div class="container">
+                          <div class="brand-logo"><a href="index.html"><img src="img/logo2.png" alt="logo"></a><a href="about.html">About</a></div>   
+                  </nav>
+              </header>
+          </div>
+      </div>
+  </div>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card card-body text-center">
+            <h1 class="heading display-5 pb-4">Loan Calculator</h1>
+            <form id="loan-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">$</span>
+                  <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">   
+                  <span class="input-group-text">%</span>
+                  <input type="number" class="form-control" id="interest" placeholder="Interest">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="years" placeholder="Years To Repay">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Calculate" class="btn btn-dark btn-block">
+              </div>
+            </form>
+            <!-- LOADER -->
+            
+            <div id="loading">
+              <img src="img/loading.gif" alt="">
+            </div>
+           
+            <!-- RESULTS -->
+            <div id="results" class="pt-3">
+              <h5>Results</h5>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Monthly Payment</span>
+                  <input type="number" class="form-control" id="monthly-payment" disabled>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Total Payment</span>
+                  <input type="number" class="form-control" id="total-payment" disabled>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Total Interest</span>
+                  <input type="number" class="form-control" id="total-interest" disabled>
+                </div>
+              </div>
+            </div>
+            <footer>copyright &copy;2021 Abakos - All right reserved</footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src="app.js"></script>
+  </body>
+</html>

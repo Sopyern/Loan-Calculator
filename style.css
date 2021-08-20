@@ -1,0 +1,44 @@
+#loading,
+#results {
+  display: none;
+}
+div.row {
+  text-align: center;
+}
+body {
+  background-color: #d1d0dfaf;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  color: white;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+.selected {
+  border-bottom: 2px solid #c3a709;
+}
+/*body style here*/
+h3 {
+  color: rgba(255, 255, 255, 0.993);
+}
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 6px;
+  color: rgba(255, 255, 255, 0.993);
+}
+
+#my-picture img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+div #my-picture {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  color: #888;
+}
